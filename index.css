@@ -1,0 +1,181 @@
+body{
+    background-color:#cce6ff;
+    text-align:center;
+    font-family:verdana;
+}
+
+input[type=checkbox] {
+    width: 3%;
+    height: 25px;
+    font-family: verdana;
+    margin:0px;
+    padding:0px;
+    text-align:left;
+}
+
+textarea{
+    font-size:23px;
+}
+
+div{
+    padding:15px;
+    text-align:justify;
+}
+
+.addButton{
+    background-color: #555555;
+    color:white;
+    padding: 10px;
+    border-style: solid;
+    border-color:black;
+    margin: 10px;
+    font-size: 20px;
+    font-family:"verdana";
+    font-weight:bold;
+    display:inline-block;
+    border-radius:5px;
+    position:relative;
+}
+
+.addButton:hover{
+    border-color: black;
+    background-color:#333333;
+}
+
+.checkboxFields{
+    text-align:center;
+    font-size:27px;
+}
+
+.desc{
+    font-style:italic;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.firstLetter{
+    font-size: 80px;
+}
+
+.outerDiv{
+    border:black;
+    background-color: white;
+    border-color:black;
+    border-style:solid;
+    font-weight:bold;
+    font-size:30px;
+    width:90%;
+    text-align:center;
+    position:relative;
+    left:70px;
+    padding:10px;
+    background-color:#dddddd;
+}
+
+.remButton{
+    background-color: #555555;
+    color:white;
+    padding: 10px;
+    border-style: solid;
+    border-color:black;
+    margin: 10px;
+    font-size: 20px;
+    font-family:"verdana";
+    font-weight:bold;
+    display:inline-block;
+    text-align:center;
+    position:relative;
+    border-radius:5px;
+    /* display:none; */
+}
+
+.remButton:hover{
+    border-color: black;
+    background-color:#333333;
+}
+
+.title {
+    font-size: 75px;
+    font-family:"verdana";
+    text-align: center;
+    font-weight:bold;
+}
+
+.title {
+  background-color: #dddddd;
+  padding: 10px;
+  display: block;
+  border-style: solid;
+  border-color: black;
+}
+
+.track{
+    font-size:23px;
+    margin:8px;
+}
+
+#addJ{
+    left:13%;
+}
+
+#interview{
+    border:white thin solid;
+    width:48%;
+}
+
+#jat{
+    display:none;
+}
+
+#notes{
+    margin:8px;
+    width:99%;
+}
+
+#remJ{
+    left:13%;
+}
+
+#start{
+  background-color: #dddddd;
+  padding: 15px;
+  border-style: solid;
+  border-color: black;
+  /* border-radius: 2px; */
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  font-size: 35px;
+  font-family:"verdana";
+  font-weight:bold;
+  display:inline-block;
+  border-radius:5px;
+}
+
+#start:hover{
+    border-color: black;
+    background-color:#cccccc;
+}
+
+#submit{
+    background-color: #555555;
+    color:white;
+    padding: 15px;
+    border-style: solid;
+    border-color:black;
+    margin: 10px;
+    font-size: 30px;
+    font-family:"verdana";
+    font-weight:bold;
+    display:none;
+    text-align:center;
+    position:relative;
+    border-radius:5px;
+    /* display:none; */
+}
+
+#submit:hover{
+    border-color: black;
+    background-color:#333333;
+}

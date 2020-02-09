@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Resume Tracker</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <!-- Resume Tracker Title -->
+        <div class="title">
+            <span class = "firstLetter">R</span>ESUME <span class ="firstLetter">T</span>RACKER
+        </div>
+        <br>
+        <div class="desc">
+            Keep track of which company you applied to and which resume you used!
+        </div>
+        <br>
+        <!-- Resume Tracker image -->
+        <img id="interview" src="interview.jpg" alt="Job Interview">
+        <br>
+        <!-- Start Button -->
+        <div id="start">START</div>
+        <br><br>
+
+        <form action="results.html" method="post">
+
+            <!-- Job Application Tracker div -->
+            <div class="outerDiv" id="jat"> JOB APPLICATION TRACKER
+                <hr>
+                <div class="resumeField">Position:
+                  <input type="text" class="track" placeholder="Job Position" id="position">
+                  Company:
+                  <input type="text" class="track" placeholder="Company Name" id="company">
+                  Date:
+                  <input type="date" name="date" class="track">
+                  <hr>
+                  Resume Version:
+                  <input type="text" class="track" placeholder="Resume2020.docs" id="resVer">
+                  CV Version:
+                  <input type="text" class="track" placeholder="CV2020.docs" id="cvVer">
+                  <hr>
+                  Notes:
+                  <br>
+                  <textarea rows="4" cols="80" id="notes"></textarea>
+                  <hr>
+                  <div class="checkboxFields">
+                      <input type="checkbox" name="question1" value="Application Completed"> APPLICATION COMPLETED
+                      <input type="checkbox" name="question2" value="Call for Interview"> CALL FOR INTERVIEW
+                      <input type="checkbox" name="question3" value="Job Offered"> JOB OFFERED
+                  </div>
+                  <hr>
+                  <div id="remJ" class="remButton"><span id="remPart">REMOVE JOB APPLICATION TRACKER</span></div>
+                  <div id="addJ" class="addButton"><span id="nextPart">ADD JOB APPLICATION TRACKER</span></div>
+                </div>
+            </div>
+
+            <input type="submit" id="submit" value="SUBMIT"/>
+    </body>
+</html>

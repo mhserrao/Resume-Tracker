@@ -1,0 +1,44 @@
+body{
+    background-color:#cce6ff;
+    text-align:center;
+    font-family:verdana;
+}
+
+p{
+    font-size:30px;
+    font-family:"verdana";
+    font-weight:bold;
+    font-style:italic;
+}
+
+.firstLetter{
+    font-size: 80px;
+}
+
+.title {
+    font-size: 75px;
+    font-family:"verdana";
+    text-align: center;
+    font-weight:bold;
+}
+
+.title {
+  background-color: #dddddd;
+  padding: 10px;
+  display: block;
+  border-style: solid;
+  border-color: black;
+}
+
+#best{
+    text-decoration:underline;
+}
+
+#luck{
+    font-size:35px;
+}
+
+#success{
+    border:white thin solid;
+    width:54%;
+}
